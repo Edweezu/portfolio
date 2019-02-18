@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   font-size: 22px;
+   text-align: center;
+}
+
+nav {
+    position: fixed;
+    background-color: #aaa;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    padding-right: 5%;
+}
+
+nav > ul > li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+header {
+    padding: 10% 0;
+}
+
+
+section {
+    min-height: 200px;
+    background-color: #bbb;
+    padding: 5% 0;
+}
+
+section:nth-child(even) {
+    background-color: #ddd;
+}
