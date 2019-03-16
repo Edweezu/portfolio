@@ -191,6 +191,10 @@ section {
     padding-right: 1rem;
 }
 
+#search-news {
+    font-weight: bold;
+}
+
 /* .projects-container, .projects-container img, .project-item {
     float: left;
     width: 100%;
@@ -211,7 +215,7 @@ section {
 
     nav ul {
         display: inline-block;
-        float: right;
+        /* float: right; */
         clear: left;
         margin-top: 2rem;
         width: 50%;    
