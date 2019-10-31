@@ -156,6 +156,10 @@ section {
     margin: 0 auto;
 }
 
+.fa-copyright {
+    margin-right: 0.5rem;
+}
+
 .about-me img {
     margin: 0 auto;
     height: 300px;
