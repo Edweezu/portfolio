@@ -143,6 +143,7 @@ section {
 
 .about-container {
     margin: 0 auto;
+    max-width: 800px !important;
 }
 
 .fa-copyright {
@@ -155,7 +156,7 @@ section {
     background-size: cover;
     display: block;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1.1rem;
     margin-bottom: 2rem;
 }
 
@@ -301,14 +302,27 @@ h3 {
         text-align: center;
     }
 
-    .about-me img {
-        height: 330px;
-        margin-top: 1.5rem;
+    /* .about-me img {
+        margin-top: 1.1rem;
         margin-bottom: 1.5rem;
-    }
+    } */
 
     .about-text-container {
         margin-right: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about-me img {
+        height: 250px;
+    }
+
+    header {
+        background: linear-gradient(rgba(0,0,0, 0.6), rgba(0, 0, 0, 0.5)), url('./images/lightning-back.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
     }
 }
 
@@ -322,4 +336,22 @@ h3 {
     /* .about-me img {
         height: 200px;
     } */
+}
+
+@media only screen and (min-width: 1040px) {
+    .projects-main-container {
+        display: flex;
+        text-align: left;
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .projects-container img {
+        width: 100%;
+    }
+
+    .projects {
+        padding-bottom: 1rem;
+    }
+
 }
