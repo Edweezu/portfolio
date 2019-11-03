@@ -8,11 +8,11 @@
         <link rel='icon' href="./images/portfolio-favicon.ico">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,900i" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" rel="stylesheet" text="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" type="text/css">
         <link rel="stylesheet" href="./styles.css">  
     </head>
     <body>
-        <nav role="navigation">
+        <nav>
             <div class='nav-container'>
                 <img id="logo" src="./images/logo.png" alt="Edwin Qiu's Logo">
                 <ul>
@@ -31,11 +31,11 @@
                 </ul>
             </div>
         </nav>
-        <main role="main">
-            <header class="header" role="banner">
+        <main>
+            <header class="header">
                     <h1>Got an Idea? Let's Make it Happen.</h1>
             </header>
-            <a class='anchor' name="about-me-nav" tabindex="-1"></a>
+            <a class='anchor' id="about-me-nav" tabindex="-1"></a>
             <section class="about-me">
                 <div class="about-container">
                     <h2 class="section-title"><i class="far fa-user"></i>
@@ -53,7 +53,7 @@
                     </div>       
                 </div>
             </section>
-            <a class='anchor' name="skills-nav" tabindex="-1"></a>
+            <a class='anchor' id="skills-nav" tabindex="-1"></a>
             <section class="skills">
                 <h2 class="section-title"><i class="fas fa-tools"></i> Skills</h2>
                 <div class="skills-container">
@@ -90,7 +90,7 @@
                             <figcaption>Express</figcaption>
                     </figure>
                     <figure class="skills-icon">
-                            <img src="./images/psql.png"  alt="HTML 5 logo" height='100px' width='100px'>
+                            <img src="./images/psql.png"  alt="HTML 5 logo" height='100' width='100'>
                             <figcaption>PostgreSQL</figcaption>
                     </figure>
                     <figure class="skills-icon">
@@ -103,7 +103,7 @@
                     </figure>
                 </div>
             </section>
-            <a class='anchor' name="projects-nav" tabindex="-1"></a>
+            <a class='anchor' id="projects-nav" tabindex="-1"></a>
             <section class="projects">
                 <h2 class="project-header section-title"><i class="fas fa-folder-open"></i> Projects</h2>
                 <div class='projects-main-container'>
@@ -174,7 +174,7 @@
                     </div>
                 </div>            
             </section>
-            <a name="contact-nav" tabindex="-1"></a>
+            <a id="contact-nav" tabindex="-1"></a>
             <section class="contact">
                 <div class="contact-container">
                     <h2 class="section-title"><i class="far fa-envelope"></i> Let's Connect!</h2>
@@ -199,8 +199,8 @@
                 </div>
             </section>    
         </main>
-        <footer role="content-info">
-        <p><i class="fas fa-copyright"></i>2019 Edwin Qiu</p>   
+        <footer>
+            <p><i class="fas fa-copyright"></i>2019 Edwin Qiu</p>   
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script>
